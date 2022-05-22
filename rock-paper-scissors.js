@@ -10,11 +10,8 @@ function computerPlay() {
 }
 
 function playRound(playerSelection, computerSelection) {
-    let score;
-
     if (computerSelection == 0 && playerSelection == "rock") {
-        console.log("Draw, you both have rock!");
-        return score = draw;
+        return console.log("Draw, you both have rock!");
 
     } else if (computerSelection == 1 && playerSelection == "paper") {
         return console.log("Draw, you both have paper!");
@@ -23,8 +20,7 @@ function playRound(playerSelection, computerSelection) {
         return console.log("Draw, you both have scissors!");
 
     } else if (computerSelection == 0 && playerSelection == "paper") {
-         console.log("You win! Paper beats rock!");
-         return score = win;
+        return console.log("You win! Paper beats rock!");
 
     } else if (computerSelection == 1 && playerSelection == "scissors") {
          return console.log("You win! Scissors beats paper!");
@@ -51,6 +47,5 @@ function game() {
             playRound(playerSelection, computerSelection);
     }
 }
-
 
 game();
