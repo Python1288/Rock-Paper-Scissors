@@ -77,27 +77,18 @@ function game() {
 
     const repeatQ = prompt("Would you like to play this game again? (yes/no): ").toLowerCase();
         if (repeatQ == "yes") {
-             countRound = 0;
-             countComp = 0;
-             countHuman = 0;
-             gameRepeat();
+            countRound = 0;
+            countComp = 0;
+            countHuman = 0;
+            game();
 
         } else {
             console.log("Game finished, have a good day!");
-        }
-}
-
-// new game of 5 rounds
-
-function gameRepeat() {
-     game();
+   }
 }
 
 console.log("\nWelcome to the game called Paper Scissors Rock! Please choose one to begin the game.");
-
-gameRepeat = game;
 let countRound = 0;
 let countComp = 0;
 let countHuman = 0;
-
 game();
