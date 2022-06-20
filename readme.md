@@ -7,8 +7,8 @@ result of a round with total score as well. First one to reach 5 points wins the
 asks user if he wants to play again.
 
 What I've learned:
-    - improved understanding of JS functions 
-    - basic DOM
-    - basic css
+- improved understanding of JS functions 
+- basic DOM
+- basic css
 
-<a href="https://python1288.github.io/Rock-Paper-Scissors">Live Demo</a>
+<a href="https://adambelko.github.io/Rock-Paper-Scissors/">Live Demo</a>
